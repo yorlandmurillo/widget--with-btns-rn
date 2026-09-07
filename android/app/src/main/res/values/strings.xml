@@ -1,0 +1,5 @@
+<resources>
+  <string name="app_name">my-widget-app</string>
+  <string name="widget_description">Dolar Widget</string>
+  <string name="click_button">Count 1</string>
+</resources>
