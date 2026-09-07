@@ -18,10 +18,7 @@ This project combines React Native for the UI layer with native Kotlin code for 
 
 Watch the widget in action:
 
-<video width="70%" controls>
-  <source src="docs/widget-android.webm" type="video/webm">
-  Your browser does not support the video tag.
-</video>
+![Widget Demo](docs/widget-android.webm)
 
 In this demo, you'll see:
 - The React Native app displaying live exchange rates
