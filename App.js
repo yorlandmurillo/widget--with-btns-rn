@@ -61,7 +61,7 @@ export default function App() {
       // if data is not empty, send it to the native module
       //TODO: mandar el objeto, no solo 1 string
       const price = dolars[0].compra;
-      CustomNativeDollarView?.dataToShow(`${price}` );
+      sendPriceToWidget(price);
     }
   }, [dolars]);
 
