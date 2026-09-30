@@ -1,6 +1,5 @@
 import { Text, View, Pressable, ScrollView, NativeModules, StatusBar } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
-// import { useIsFocused } from '@react-navigation/native';
 import { useEffect, useState } from 'react';
 import apiGetCall from '../services/apiCall';
 import useAppState from '../services/useAppState';
@@ -27,7 +26,6 @@ export default function HomeScreen() {
     //TODO: return every 5 minutes
       const fetchDolarQuote = async () => {
         try{
-            console.log("Fetching data from API...");
             const data = await apiGetCall("https://dolarapi.com/v1/dolares") 
             setDolars(data);
             
@@ -42,7 +40,6 @@ export default function HomeScreen() {
         try {
         const thisCount = await CustomNativeDollarView?.getCheckCount();
     
-        console.log("Count from native module:", thisCount);
         setCounterClicks(thisCount);
         }catch(error){
             console.warn("Error getting count from native module:", error);
@@ -68,9 +65,6 @@ export default function HomeScreen() {
           getCheckCountLocal();
         }
       }, [appState]);
-    
-    
-    
     
       useEffect(() => {
         if (dolars?.length > 0) {
