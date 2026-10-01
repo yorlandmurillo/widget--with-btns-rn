@@ -3,4 +3,11 @@
   <color name="iconBackground">#E6F4FE</color>
   <color name="colorPrimary">#023c69</color>
   <color name="colorGreenLight">#1FD655</color>
+  <color name="widget_bg">#FCFDFB</color>        <!-- Pearl -->
+  <color name="widget_stroke">#DEE0D9</color>    <!-- Marble -->
+  <color name="widget_surface">#F2F3ED</color>   <!-- Moonstone -->
+  <color name="widget_text">#222220</color>      <!-- Obsidian -->
+  <color name="widget_text_2">#595956</color>    <!-- Slate -->
+  <color name="widget_accent">#007F4A</color>    <!-- Forest -->
+  <color name="widget_dot">#66CC00</color>       <!-- TELUS Green -->
 </resources>
