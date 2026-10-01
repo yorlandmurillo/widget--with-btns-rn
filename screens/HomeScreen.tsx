@@ -73,7 +73,7 @@ export default function HomeScreen() {
           const price = dolars?.[0].compra;
           sendPriceToWidget(price);
         }
-      }, [dolars]);
+      }, [dolars, appState]);
     
 
     return (
